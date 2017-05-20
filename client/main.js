@@ -18,8 +18,8 @@ Meteor.startup(() => {
     }).fetch();
 
     let title = 'Score Keep';
-    let subtitle = 'Created by Anusha Dharmasena';
-    
+    let subtitle = 'Created by CDAN Dharmasena';
+
     ReactDOM.render(<App title={title} subtitle={subtitle} players={players} />, document.getElementById('app'));
   });
 });
